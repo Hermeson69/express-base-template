@@ -1,11 +1,19 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "jsx": "react-jsx",
     "target": "ES2020",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "esModuleInterop": true,
     "strict": true,
-    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["node"],
     "skipLibCheck": true
   },
   "include": ["src"]
