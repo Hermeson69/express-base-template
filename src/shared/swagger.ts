@@ -12,7 +12,7 @@ const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Black Amber Coffes API",
+      title: "Express Base Template API",
       description: "Documentação da API utilizando Express",
       version: "1.0.0",
     },
